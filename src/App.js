@@ -1,9 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import MultiButton from './cgu_multiButton';
+import HelloCGU from './cgu_hello';
 
 function App() {
   return (
     <div className="App">
+      <div>
+      { HelloCGU() }
+      </div>
+      <div>
+      { MultiButton(10) }
+      </div>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
